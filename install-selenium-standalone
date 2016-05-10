@@ -1,0 +1,7 @@
+# Download selenium
+sudo wget http://goo.gl/IHP6Qw -o /usr/local/bin/selenium-jar-standalore.jar
+sudo chmod +x /usr/local/bin/selenium-jar-standalore.jar
+
+# Create launcher
+sudo echo "java -jar /usr/local/bin/selenium-jar-standalore.jar" > /usr/local/bin/selenium-standalone
+sudo chmod +x /usr/local/bin/selenium-standalone
